@@ -128,9 +128,72 @@
 #print(a.rindex("z"))
 #print(a.rindex("Homer"))
 
-a = "Homer"
-print(a.startswith("H"))
-print(a.startswith("h"))
-print(a.startswith("Homer"))
-print(a.startswith("z"))
-print(a.startswith("om", 1, 3))
+#a = "Homer"
+#print(a.startswith("H"))
+#print(a.startswith("h"))
+#print(a.startswith("Homer"))
+#print(a.startswith("z"))
+#print(a.startswith("om", 1, 3))
+
+#a = "36"
+#print(a.zfill(5))
+
+#a = "-36"
+#print(a.zfill(5))
+
+#a = "+36"
+#print(a.zfill(5))
+
+#a = "Banana"
+#print(a.endswith("a"))
+#print(a.endswith("nana"))
+#print(a.endswith("z"))
+#print(a.endswith("an", 1, 3))
+
+#a = "Fitness"
+#print(a.find("F"))
+#print(a.find("f"))
+#print(a.find("n"))
+#print(a.find("ness"))
+#print(a.find("ess"))
+#print(a.find("z"))
+#print(a.find("Homer"))
+
+print("{} and {}".format("Tea", "Coffee"))
+
+# Example 2
+print("{1} and {0}".format("Tea", "Coffee"))
+
+# Example 3
+print("{lunch} and {dinner}".format(lunch="Peas", dinner="Beans"))
+
+# Example 4
+print("{0}, {1}, {2}".format(*"123"))
+
+# Example 5
+lunch = {"food": "Pizza", "drink": "Wine"}
+print("Lunch: {food}, {drink}".format(**lunch))
+
+#string_operators
+#a = "Tea " + "Leaf"
+#print(a)
+
+#a = "Bee " * 3
+#print(a)
+
+#a = "Sea" #slice
+#print(a[1])
+
+#a = "Mushroom" #range-slice
+#print(a[4:8])
+
+#a = "Mushroom" #IN
+#print("m" in a)
+#print("b" in a)
+#print("shroo" in a)
+
+a = "Mushroom"
+print("m" not in a)
+print("b" not in a)
+print("shroo" not in a)
+
