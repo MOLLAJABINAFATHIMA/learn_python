@@ -1,17 +1,18 @@
 #difference between casefold and lower
-#firstString = "Fluß"
-#secondString = "Fluss"
-#num1="34"
-#c0="hi"
-#c1 = "1.23"
-#c2 = "$*%!!!"
-#c3 = "0.34j"
-#c4= u"\u00B2"
-#print(firstString.casefold())
-#print(secondString.casefold())
-#print(firstString.lower())
-#print(secondString.lower())
+firstString = "Fluß"
+secondString = "Fluss"
+
+print(firstString.casefold())
+print(secondString.casefold())
+print(firstString.lower())
+print(secondString.lower())
 #gives result in the form of boolean
+num1="34"
+c0="hi"
+c1 = "1.23"
+c2 = "$*%!!!"
+c3 = "0.34j"
+c4= u"\u00B2"
 #print(firstString.isalpha())
 #print(secondString.isalpha())
 #print(firstString.isalnum()) 
@@ -32,18 +33,18 @@
 #print(c3.isdigit())
 #print(c4.isdigit())
 
-#print(num1.isdigit())
-#print(c1.isdigit())
-#print(c2.isdigit())
-#print(c3.isdigit())
-#print(c4.isdigit())
+# print(num1.isdigit())
+# print(c1.isdigit())
+# print(c2.isdigit())
+# print(c3.isdigit())
+# print(c4.isdigit())
 
-#print(num1.isnumeric())
-#print(c0.isnumeric())
-#print(c1.isnumeric())
-#print(c2.isnumeric())
-#print(c3.isnumeric())
-#print(c4.isnumeric())
+print(num1.isnumeric())
+print(c0.isnumeric())
+print(c1.isnumeric())
+print(c2.isnumeric())
+print(c3.isnumeric())
+print(c4.isnumeric())
 
 #a = " "
 #print(a.isspace())
@@ -159,20 +160,17 @@
 #print(a.find("z"))
 #print(a.find("Homer"))
 
-print("{} and {}".format("Tea", "Coffee"))
+#print("{} and {}".format("Tea", "Coffee"))
 
 # Example 2
-print("{1} and {0}".format("Tea", "Coffee"))
+#print("{1} and {0}".format("Tea", "Coffee"))
 
 # Example 3
-print("{lunch} and {dinner}".format(lunch="Peas", dinner="Beans"))
+#print("{lunch} and {dinner}".format(lunch="Peas", dinner="Beans"))
 
 # Example 4
-print("{0}, {1}, {2}".format(*"123"))
+#print("{0}, {1}, {2}".format(*"123"))
 
-# Example 5
-lunch = {"food": "Pizza", "drink": "Wine"}
-print("Lunch: {food}, {drink}".format(**lunch))
 
 #string_operators
 #a = "Tea " + "Leaf"
@@ -192,8 +190,8 @@ print("Lunch: {food}, {drink}".format(**lunch))
 #print("b" in a)
 #print("shroo" in a)
 
-a = "Mushroom"
-print("m" not in a)
-print("b" not in a)
-print("shroo" not in a)
+#a = "Mushroom"
+#print("m" not in a)
+#print("b" not in a)
+#print("shroo" not in a)
 
